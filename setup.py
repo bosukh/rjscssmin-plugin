@@ -6,8 +6,10 @@ setup(
     author='Ben Hong',
     author_email='benbosukhong@gmail.com',
     description='wrapper around rjsmin and rcssmin to easily use them',
-    version='1.0.0',
+    version='1.0.1',
     py_modules = ['rjscssmin-plugin'],
+    zip_safe=False,
+    include_package_data=True,
     license='MIT',
     install_requires=[
         'rJSmin',
